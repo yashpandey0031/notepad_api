@@ -11,7 +11,8 @@ pip install fastapi uvicorn sqlalchemy
 uvicorn main:app --reload
 
 **Test the endpoints**
-Visit http://127.0.0.1:8000/docs
+Visit http://127.0.0.1:8000/docs or
+Visit https://notepad-api-jjgy.onrender.com
 
 ## Endpoints
 
