@@ -32,5 +32,7 @@ Visit https://notepad-api-jjgy.onrender.com
 - FastAPI
 - SQLite
 - SQLAlchemy
+- postgresql
 - JWT (python-jose)
 - Passlib (bcrypt)
+- render/neon for deployment
