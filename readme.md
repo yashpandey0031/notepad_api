@@ -23,9 +23,13 @@ Visit http://127.0.0.1:8000/docs
 | PUT    | /notes/{id}         | Update a note (saves old version to history) |
 | DELETE | /notes/{id}         | Delete a note                                |
 | GET    | /notes/{id}/history | Get all previous versions of a note          |
+| POST   | /login              | Login with a account for accessing anything  |
+| POST   | /register           | register with a username and passowrd        |
 
 ## Tech Stack
 
 - FastAPI
 - SQLite
 - SQLAlchemy
+- JWT (python-jose)
+- Passlib (bcrypt)
